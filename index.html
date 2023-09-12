@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Validation</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="section">
+    <h1>Validation Checking!</h1>
+    <form name="fform" action="welcome.html">
+        <label>Username</label><br>
+        <input type="text" name="username"  id="u-name" ><br><br>
+
+        <label>Password</label><br>
+        <input type="password" name="password" id="u-name"><br><br>
+
+        <label>Confrim Password</label><br>
+        <input type="password" name="Confrim_Password" id="u-name"><br><br>
+        
+        <label>Email</label><br>
+        <input type="email" name="email" id="u-name"><br><br>
+
+        <input type="submit" value="Submit" name="submit" id="s-mit" onclick="return validation();">
+
+    </form>
+    </div>
+</body>
+</html>
