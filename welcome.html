@@ -9,5 +9,16 @@
 </head>
 <body>
     <h1>Welcome!Happy Learning</h1>
+    <script>
+        // Check if the user is logged in
+        const token = localStorage.getItem('token');
+        
+        if (!token) {
+            // If the token is not present, redirect to the login page
+            window.location.href = 'index.html';
+        }
+        
+        // Now the user is authenticated and can access this page
+        </script>
 </body>
 </html>
